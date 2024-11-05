@@ -1,0 +1,34 @@
+Knowledge_check
+
+1.how do you create a new repository on Github?:
+    by pressing a ' + ' sign on top right corner of the github site 
+
+2.how do you copy a repository onto your local machine from github?
+    you can get ssh address from the github page and you clone commands on terminal with the address you copied.
+
+3.what is default name of your remote connection?
+    origin
+
+4.Explain what origin is in git push origin main?
+    It's the root(?) path of the remote repository? 
+
+5.Explain what main is in git push origin main? 
+    it's a name of the branch.In this case its called ' main ' 
+
+6.Explain the two-stage system that Git uses to save files. 
+    Git uses 'add' and 'commit' commands to save files.
+    
+7.how do you check the status of your current repositoy? 
+    by typing 'git status' in terminal
+
+8.how do you add files to the staging area in GIt? 
+    by typing ' git add filename.fileformat' or git add . which adds all the changed files.
+
+9.how do you commit the files in the staging area and add a descriptive message? :
+    by typing ' git commit -m "Message that describes the commit" 
+
+10.how do you push your changes to your repository on Github? 
+    by typing " git push origin main" or git push 
+
+11.how do you look at the history of your previous commits? 
+    by typing " git log" 
